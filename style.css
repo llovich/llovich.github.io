@@ -1,0 +1,73 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  /*font-family: 'Molengo', sans-serif;*/
+  font-size:13px;
+}
+
+p {
+  font-size:1.3em;
+}
+
+h1, h2 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  /*font-family: 'Molengo', sans-serif;*/
+}
+
+.navbar {
+  background-color:#444444;
+  margin-bottom:0;
+  padding-left:50px;
+  border-color: #444444;
+  border-radius: 0;
+  height:72px;
+}
+
+.navbar a{
+  color:#000000;
+}
+
+.jumbotron {
+  /* use background color in case pic doesnt load */
+  background-color: #323232;
+  background-image: url(pinkgeobkgd.png);
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  color:#000000;
+  padding-top:150px;
+  padding-bottom:160px;
+  padding-left: 50px;
+  margin-bottom:0;
+}
+
+.jumbotron h1 {
+ font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ font-size:100px;
+ padding-left: 50px;
+}
+
+
+.green_box {
+  background-color: #B4AE87;
+  /*height:750px;*/
+  padding-left: 50px;
+  padding-bottom:30px;
+  color:#000000;
+}
+
+.blue-ish_box{
+  background-color: #9CA498;
+  /*height:250px;*/
+  padding-left: 50px;
+  padding-bottom:50px;
+  color:#000000;
+}
+
+.gray_box {
+  background-color:#444444;
+  /*height:100px;*/
+  padding-left: 50px;
+  padding-bottom:30px;
+  color:#000000;
+}
+
