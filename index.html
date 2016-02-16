@@ -1,149 +1,181 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Hi. Meet Lillian</title>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <!-- custom google font here / bf custom css bc that css calls it -->
- <!-- <link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'> -->
-  <!-- put custom css goes after  -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
 
-  <!-- put jquery bf bootstrap bc booststrap needs jquery to work-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Meet Lillian Lovich.</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Mr+Bedfort' rel='stylesheet' type='text/css'>
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light" style="font-family: 'Mr Bedfort', cursive; text-transform:capitalize; font-size:2em; color: #33cccc;">Lillian Lovich</span>
+                </a>
+            </div>
 
-<body>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">My Web Studio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<!-- leave this stuff alone -->
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!-- gives title to page w ref link -->
-      <a class="navbar-brand" href="#">Lillian Lovich</a>
-    </div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Hi there!</h1>
+                        <p class="intro-text">My name is Lillian Lovich.<br>I am a freelance web developer.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      <!-- class sr-only is selected-->
-        <li class="active"><a href="#">Hi!<span class="sr-only">(current)</span></a></li>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Skills</a></li>
-         <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Another Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Social<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Linked In</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>About Lillian</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <!--
+                <p>Hello &amp; Bonjour! I have been working in web development for almost 15 years. My start in web programming was fun while studying Logic and Computation in Graduate school at Carnegie Mellon University.
+                </p>
+                <p>DESIGN/INTERFACE/DONT MAKE ME THINK/PHOTOGRAPHY Given my need/complusion to organize and put things at right angles, I also have a deep interest and some expertise in interface design. </p>
+                <p>NEW ORLEANS/PARIS/BIKE/BAKING Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Excepteur sint occaecat cupidatat non proident.</p>
+                -->
+            </div>
+        </div>
+    </section>
 
-<header class="jumbotron">
-  <div class="container-fluid">
-     <h1>Hi!/Bonjour!</h1>
-  </div>
-</header>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1>Visit my Web Studio</h1>
+                    <p>I've had my own company since 2009. Please visit and see my work and list of clients.</p>
+                    <a href="http://www.goodeggwebstudio.com" class="btn btn-default btn-lg">Visit Good Egg Web Studio</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="intro" class="green_box">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>About me:</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4" style="padding-top:100px;">
-        <img src="bw-bangs-portrait450w.jpg" alt="photo of lillian" class="img-responsive img-circle">
-      </div>
-      <div class="col-sm-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>Contact Me</h1>
+                <p>Want to talk so more?<br/>Please feel free to contact me with comments, questions, and concerns.<br> Or just send an email to say "Hi!".</p>
+                <p><a href="mailto:lillian@goodeggwebstudio.com">lillian@goodeggwebstudio.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="" class="btn btn-default btn-lg"><i class="fa fa-file fa-fw"></i> <span class="network-name">Resume</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/llovich" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lillian-lovich-8615809" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">Linked In</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<section id="skills" class="blue-ish_box">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>My Skills:</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <p>leave empty of use header to list</p>
-      </div>
-     <div class="col-sm-8">
-       <p>list skills as an unordered list or des list</p>
-     </div>
-    </div>
-  </div>
-</section>
+    <!-- Map Section -->
+    <!--
+    <div id="map"></div>
+    -->
 
-<section id="contact" class="gray_box">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>Contact:</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-      </div>
-      <div class="col-sm-4">
-        <p>contact info1</p>
-      </div>
-      <div class="col-sm-4">
-          <p>contact info2</p>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p style="font-size:10px;">Copyright &copy; Lillian Lovich 2016</p>
+        </div>
+    </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <!--
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
 </body>
-
-
-
 
 </html>
